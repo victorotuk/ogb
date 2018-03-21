@@ -1,0 +1,204 @@
+/*Index page css settings*/
+
+/*otherside hover not working
+but what i want is for it to light up along with the logo and the intro writing */
+.index{
+
+   background-color:#9ce80d;
+   color:	#black;
+   margin:0;
+   padding:0;
+   position:relative;
+
+}
+
+.main{
+
+  margin:auto;
+  background-color:#ebf4eb;
+  padding-top: 10%;
+  position: relative;
+
+}
+
+.main img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  width: 200px;
+
+}
+
+.main .img_uno{
+    position: relative;
+    z-index: 2;
+    filter: contrast(60%);
+
+}
+
+.main .img_dos{
+   position: relative;
+   z-index: 1;
+   top: -260px;
+   left: 120px;
+   transform: rotate(70deg);
+}
+
+.cappings{
+  margin-top: -275px;
+}
+
+}
+
+.img{
+border: 1px solid #000;
+ position: relative;
+}
+
+.main p, h2{
+  text-align: center;
+  padding-top:10px;
+}
+
+.main p{
+  padding-bottom: 28px;
+}
+
+.buttons{
+list-style: none;
+text-align: center;
+}
+
+.buttons li{
+    display: inline-block;;
+}
+
+.btn{
+
+     margin: auto;
+     letter-spacing: 1.3px;
+     text-decoration: none;
+     color: #9ce80d;
+     font-size: 1.5rem;
+     padding:4px 6px;
+     background-color: #FFFFFF;
+}
+
+ .ot {
+   width: 15%;
+   margin: auto;
+
+ }
+
+ .otherside{
+
+   color:#e1f2df;
+   border: 2px solid #e1f2df;
+   border-radius: 5px;
+   background: #9ce80d;
+   font-size: 1.1rem;
+   padding:4px 5px;
+   letter-spacing: 1.3px;
+   text-decoration: none;
+ }
+
+.otherside:hover{
+   color:#FFD700;
+   background-color: white;
+   font-weight: bold;
+   border:3.3px solid #FFD700;
+   padding:5px 6px;
+ }
+
+.btn:hover{
+
+  color:#FFFFFF;
+  background-color: #9ce80d;
+  font-weight: bold;
+}
+
+
+
+/*Login page css settings*/
+
+.pull-right{
+list-style:none;
+float: right;
+}
+
+.login-header{
+  background-color: #9ce80d;
+  border: solid 1px #9ce80d;
+}
+
+.login-header .btn{
+  margin-right:20px;
+  margin-top:8px;
+}
+
+.login-main{
+  padding-top:50px;
+}
+
+.form-horizontal{
+  margin:auto;
+  position:relative;
+}
+
+/*i want to centralize the div, and i want to make the sign up text bold
+when it is hovered around*/
+
+/*signup page css settings*/
+
+.gender{
+  margin-left: 18px;
+}
+
+.pull-right{
+list-style:none;
+float: right;
+}
+
+.sign-up-header{
+  background-color:#9ce80d;
+  border:solid 1px #9ce80d;
+  position:relative;
+}
+
+.sign-up-header .formo{
+  position: relative;
+  z-index: 1;
+  left: -90px;
+  top:10px;
+}
+.sign-up-header .btn{
+  margin-right:20px;
+  margin-top:8px;
+}
+
+.sign-up-header .row col{
+
+}
+
+.login-main{
+  padding-top:50px;
+}
+
+.form-horizontal{
+  margin:auto;
+  position:relative;
+}
+
+.sign-up-main{
+  padding-top:50px;
+}
+
+.sign-up-main input{
+  /*i need a way to color this text green-ish*/
+}
+
+.form-inline .form-group{
+  padding-top:9px;
+}
