@@ -1,5 +1,4 @@
-
-//const angular = require('angular');
+let angular = require('angular');
 //var app = angular.module("myApp", []);
 
 // require the 'sqlite3' package
