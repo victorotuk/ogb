@@ -1,13 +1,14 @@
-//Step 1 - import express
-var express = require('express');
-//
+let express = require('express');
+let app = express();
 
+var srvr = app.listen(3000, listening);
 
-//use it to create a local connection
-var app = express();
+function listening(){
 
-app.listen(3000);
+  console.log("listening ...");
+}
 
-app.use(express.static('./site'));
+app.use(express.static('site' + '/html'));
 
-console.log('listening...');
+app.use(express.static('site' + '/css'));
+app.use(express.static('site' + '/js'));

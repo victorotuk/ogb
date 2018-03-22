@@ -1,5 +1,4 @@
 
-
-app.controller("MainController", function($scope) {
-  $scope.dick = "what the fyck";
+ang.controller("MainController", function($scope){
+  $scope.ki = "what the fyck";
 });
