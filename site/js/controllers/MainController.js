@@ -1,4 +1,4 @@
 
-ang.controller("MainController", function($scope){
-  $scope.ki = "what the fyck";
-});
+app.controller("MainController",['$scope',function($scope){
+  $scope.ki = "what the mk";
+}]);
